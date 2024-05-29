@@ -7,6 +7,7 @@ function App() {
 
   return (
     <>
+    <header role="banner"></header>
       <CardQr 
         imgQr={imgQR} 
         titleQr="Improve your front-end skills by building projects"
