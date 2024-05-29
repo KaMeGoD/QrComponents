@@ -9,10 +9,10 @@ interface PropsCardQr{
 export const CardQr: React.FC<PropsCardQr> = ({ imgQr, titleQr, textQr }) =>{
   return(
     <>
-      <div className="cardQr">
+      <div role='contentinfo' className="cardQr">
         <img className="imgQR" src={imgQr} alt="QR code" />
         <div className="textQR">
-          <h4>{titleQr}</h4>
+          <h1>{titleQr}</h1>
           <p>{textQr}</p>
         </div>
       </div>
